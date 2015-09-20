@@ -1,0 +1,50 @@
+<com.cuber.ripplelayout.RippleRelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rippleRelativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E91E63"
+    android:padding="32dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button1" />
+
+    <com.cuber.ripplelayout.RippleLinearLayout
+        android:id="@+id/rippleLinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#2196F3"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <Button
+            android:id="@+id/Button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Button2" />
+
+
+        <com.cuber.ripplelayout.RippleLinearLayout
+            android:id="@+id/rippleLinearLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#8BC34A"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Button3" />
+
+        </com.cuber.ripplelayout.RippleLinearLayout>
+
+
+    </com.cuber.ripplelayout.RippleLinearLayout>
+
+</com.cuber.ripplelayout.RippleRelativeLayout>
